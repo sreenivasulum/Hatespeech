@@ -1,0 +1,19 @@
+name: hatespeechenv  # Replace with your desired environment name
+channels:
+  - conda-forge
+dependencies:
+   - python=3.10
+   - numpy
+   - pip
+   - scikit-learn
+   - scipy
+   - pandas
+   - pip:
+     - inference-schema[numpy-support]
+     - xlrd
+     - mlflow
+     - azureml-mlflow
+     - tensorflow
+     - Keras-Preprocessing
+     - transformers
+# Add other packages you want in your environment
